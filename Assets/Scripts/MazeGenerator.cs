@@ -143,7 +143,7 @@ public abstract class MazeGenerator : MonoBehaviour
     public abstract void GenMazeData();
 
     /// <summary>
-    /// 生成场景
+    /// 根据数据，生成实例化整个迷宫
     /// </summary>
     public virtual void GenMazeScene()
     {
